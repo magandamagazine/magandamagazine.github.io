@@ -1,0 +1,1 @@
+# magandamagazine.github.io
