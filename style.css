@@ -398,6 +398,42 @@ th {
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
+@media screen and (max-width: 1024px) {
+h1{
+  font-size: 82px;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+ your font  style goes here
+ h1{
+  font-size: 82px;
+ }
+}
+
+
+@media screen and (max-width: 650px) {
+ your font  style goes here
+h1{
+  font-size: 82px;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+ h1{
+  font-size: 70px;
+ }
+
+}
+
+@media screen and (max-width: 240px) {
+ h1{
+  font-size: 44px;
+ }
+}
+
 @media (min-width: 400px) {
   .container {
     width: 85%;
@@ -868,7 +904,7 @@ body {
 h1 {
   color: #9BC1BC;
   font-weight: bolder; 
-  font-size: 82px;
+  font-size: 7vw;
   text-align: center;
   /*margin-left: 75px;*/
   font-family: 'Oswald', sans-serif;
@@ -938,7 +974,6 @@ h1.abouthead {
         margin: 0 auto;
         color: black;
         font-size: 20px;
-
 
       }
 
@@ -1210,19 +1245,25 @@ img {
     .clothes-pics figure:hover img {
       transform: scale(1.1); }
   .clothes-pics figcaption {
+    font-size: 1.5rem;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: -100%;
-    background: black;
-    color: white;
-    padding: 2px 8px;
+    height: 100%;
+    width:100%;
+    background: rgba(255,255,255,0.8);
+    color: black;
+    padding-top: 29px;
     font-size: 11px;
+    text-align: center;
+
     transition: all 0.3s ease-in-out; }
  
  /*STAFF SECTION*/
 
-/*
-.large-window {
+
+
+/*.large-window {
   height: 640px;
   background-image: url(pics/eic.jpg);
   background-position: center 0px;
@@ -1484,7 +1525,7 @@ img {
       padding: 10px 20px;
       transition: all 0.5s ease-in-out; }
       .large-window6 .promo-text .window-cta:hover {
-     }*/
+     } */
 
 
 .bloghead {
