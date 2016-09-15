@@ -1031,7 +1031,7 @@ img {
 .bird-box {
   position: relative;
   height: 780px;
-  background-image: url(/images/bird-bg.jpg);
+  background-image: url(pics/bird-bg.jpg);
   background-size: auto 800px;
   background-position: top center;
   background-attachment: fixed;
@@ -1042,7 +1042,7 @@ img {
 .logo {
   height: 100px;
   width: 100%;
-  background-image: url(/images/black-bird-logo.svg);
+  background-image: url(pics/bl-bird-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -1053,7 +1053,7 @@ img {
 .fore-bird {
   width: 960px;
   height: 733px;
-  background-image: url(/images/fore-bird.png);
+  background-image: url(pics/fore-bird.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
@@ -1065,7 +1065,7 @@ img {
 .back-bird {
   width: 960px;
   height: 298px;
-  background-image: url(/images/back-bird.png);
+  background-image: url(pics/back-bird.png);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
@@ -1258,13 +1258,13 @@ hr.dashed {
 }
 
 .large-window.periscope-1 {
-  background-image: url(/images/model17.jpg);
+  background-image: url(pics/eic.jpg);
   background-position: top;
   margin-top: 40px;
 }
 
 .large-window.periscope-2 {
-  background-image: url(/images/model11.jpg);
+  background-image: url(/images/le.jpg);
   background-position: center;
 }
 
