@@ -1213,13 +1213,13 @@ img {
 .fore-bird {
   width: 960px;
   height: 733px;
-  background-image: url(pics/fore-bird.png);
+  background-image: url(pics/mback.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right top;
   position: absolute;
-  left: 50%;
+  left: 63.5%;
   margin-left: -480px;
-  top: 380px; }
+  top: 255px; }
 
 .back-bird {
   width: 960px;
