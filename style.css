@@ -631,15 +631,18 @@ h6 {
     font-size: 1.5rem; }}
 p {
   margin-top: 0;
+  font-size: 16px;
+  font-weight: 300;
   }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #b6b6b6; 
+  text-decoration: none;}
 
 a:hover {
-  color: #0FA0CE; }
+  color: rgba(255, 255, 255, 1); }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -1203,7 +1206,24 @@ h1.abouthead {
   #sidebartoggler:checked + .page-wrap .page-content {
     padding-left: 170px; }
 
+@media screen and (max-width: 500px) {
+  .sidebar {
+    width: 101px;
+  }
+  #sidebartoggler:checked + .page-wrap .toggle {
+    left: 140px;
+  }
+  #sidebartoggler:checked + .page-wrap .page-content {
+    padding-left: 103px; 
+  }
+  .sidebar .mlogo {
+    left: 21px;
+  }
+  #sidebartoggler:checked + .page-wrap .sidebar {
+    left: -58px;
+  }
 
+}
 
 img {
   max-width: 100%; }
@@ -1237,6 +1257,16 @@ img {
   left: 63.5%;
   margin-left: -480px;
   top: 255px; }
+
+@media screen and (max-width: 420px) {
+  .fore-bird {
+    width: 737px;
+    height: 200px;
+    left: 31.5%;
+    margin-left: -480px;
+    top: 428px;
+  }
+}
 
 .back-bird {
   width: 960px;
@@ -1284,6 +1314,13 @@ img {
 
     transition: all 0.3s ease-in-out; }
  
+@media screen and (max-width: 400px) {
+  .clothes-pics figure img {
+    margin-left: 35px;
+    max-width: 83%;
+  }
+}
+
 .alt-section {
   background-color: white;
  
@@ -1313,6 +1350,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .alt-section .thumb-container .thumb-unit .thumb-overlay {
   position: absolute;
   height: 100%;
@@ -1327,6 +1365,9 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .alt-section .thumb-container .thumb-unit .thumb-overlay strong{
@@ -1382,9 +1423,12 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.alt-section .thumb-container .thumb-unit2 .thumb-overlay strong{
+.alt-section .thumb-container .thumb-unit2 .thumb-overlay strong {
   padding: 20px;
   color: white;
   font-weight: 300;
@@ -1437,6 +1481,9 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .alt-section .thumb-container .thumb-unit3 .thumb-overlay strong{
@@ -1493,6 +1540,9 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .alt-section .thumb-container .thumb-unit4 .thumb-overlay strong{
@@ -1549,6 +1599,9 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .alt-section .thumb-container .thumb-unit5 .thumb-overlay strong{
@@ -1604,6 +1657,9 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .alt-section .thumb-container .thumb-unit6 .thumb-overlay strong{
@@ -1660,6 +1716,9 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .alt-section .thumb-container .thumb-unit7 .thumb-overlay strong{
@@ -1716,6 +1775,9 @@ img {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; 
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .alt-section .thumb-container .thumb-unit8 .thumb-overlay strong{
@@ -1733,4 +1795,23 @@ img {
   right: 0px;
   left: 0px;
   bottom: null;
+}
+
+@media screen and (max-width: 760px) {
+  .alt-section .thumb-container .thumb-unit {
+    width: 50% }
+  .alt-section .thumb-container .thumb-unit2 {
+    width: 50% }
+  .alt-section .thumb-container .thumb-unit3 {
+    width: 50% }
+  .alt-section .thumb-container .thumb-unit4 {
+    width: 50% }
+  .alt-section .thumb-container .thumb-unit5 {
+    width: 50% }
+  .alt-section .thumb-container .thumb-unit6 {
+    width: 50% }
+  .alt-section .thumb-container .thumb-unit7 {
+    width: 50% }
+  .alt-section .thumb-container .thumb-unit8 {
+    width: 50% }
 }
