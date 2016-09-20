@@ -1083,62 +1083,44 @@ h1.abouthead {
   background: #eee;
 }
 
-.toggle {
-  text-decoration: none;
-  font-size: 30px;
-  color: black;
-  -webkit-transition: all 0.15s ease-out 0;
-     -moz-transition: all 0.15s ease-out 0;
-          transition: all 0.15s ease-out 0;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 1;
-  cursor: pointer;
-  
-}
-.toggle:hover {
-  color: #9BC1BC;
-}
-
 .logos .fb {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 20px;
   -webkit-transition: all 0.15s ease-out 0;
      -moz-transition: all 0.15s ease-out 0;
           transition: all 0.15s ease-out 0;
   position: fixed;
-  top: 20px;
-  right: 45px;
+  top: 145px;
+  left: 119px;
   z-index: 1;
   cursor: pointer;
 }
 
 .logos .ig {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 20px;
   -webkit-transition: all 0.15s ease-out 0;
      -moz-transition: all 0.15s ease-out 0;
           transition: all 0.15s ease-out 0;
   position: fixed;
-  top: 20px;
-  right: 95px;
+  top: 145px;
+  left: 67px;
   z-index: 1;
   cursor: pointer;
 }
 
 .logos .tw {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 20px;
   -webkit-transition: all 0.15s ease-out 0;
      -moz-transition: all 0.15s ease-out 0;
           transition: all 0.15s ease-out 0;
   position: fixed;
-  top: 20px;
-  right: 145px;
+  top: 145px;
+  left: 15px;
   z-index: 1;
   cursor: pointer;
 }
@@ -1153,7 +1135,7 @@ h1.abouthead {
   color: #9BC1BC;
 }
 
-
+/********SIDEBAR**********/
 
 .sidebar {
   position: fixed;
@@ -1197,31 +1179,97 @@ h1.abouthead {
   display: none;
 }
 
-  #sidebartoggler:checked + .page-wrap .sidebar {
-    left: 0px; }
+label.toggle {
+  margin-bottom: -2.5rem;
+}
+img.mlogo {
+    padding-bottom: 81px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.page-wrap .sidebar {
+    left: -40px; }
 
   #sidebartoggler:checked + .page-wrap .toggle {
     left: 200px; }
 
-  #sidebartoggler:checked + .page-wrap .page-content {
-    padding-left: 170px; }
+.page-wrap .page-content {
+    padding-left: 150px; }
+
+  
+
+
 
 @media screen and (max-width: 500px) {
   .sidebar {
     width: 101px;
+    height: 387px;
+    background-color: rgba(0, 0, 0, 0.82);
   }
   #sidebartoggler:checked + .page-wrap .toggle {
     left: 140px;
   }
+  .page-wrap .toggle {
+    left: 25px;
+  }
   #sidebartoggler:checked + .page-wrap .page-content {
-    padding-left: 103px; 
+    padding-left: 0px; 
   }
+  .page-wrap .page-content {
+    padding-left: 0px;
+  }
+
   .sidebar .mlogo {
-    left: 21px;
+    left: 0px;
+    padding-top: 0px;
   }
+
   #sidebartoggler:checked + .page-wrap .sidebar {
-    left: -58px;
+    left: -40px;
   }
+  .page-wrap .sidebar {
+    left: -162px;
+  }
+
+  .toggle {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  -webkit-transition: all 0.15s ease-out 0;
+     -moz-transition: all 0.15s ease-out 0;
+          transition: all 0.15s ease-out 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer;
+  
+}
+.toggle:hover {
+  color: #9BC1BC;
+}
+#sidebartoggler:checked + .page-wrap .sidebar .logos .tw {
+  top: 130px;
+  left: 10px;
+}
+.page-wrap .sidebar .logos .tw {
+  left: -25px;
+}
+#sidebartoggler:checked + .page-wrap .sidebar .logos .ig {
+  top: 130px;
+  left: 55px;
+}
+.page-wrap .sidebar .logos .ig {
+  left: -70px;
+}
+#sidebartoggler:checked + .page-wrap .sidebar .logos .fb {
+  top: 130px;
+  left: 100px;
+}
+.page-wrap .sidebar .logos .fb {
+  left: -120px;
+}
+
 
 }
 
@@ -1815,3 +1863,60 @@ img {
   .alt-section .thumb-container .thumb-unit8 {
     width: 50% }
 }
+
+/*.section-work {
+  overflow-x: hidden;
+}
+.alt-section .work-belt {
+  width: 200%;
+  position: relative;
+  left: -100%;
+}
+
+.thumb-wrap, .work-wrap {
+  width: 50%;
+  float: left;
+}
+
+.work-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.work-container h4{
+  color: black;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.work-container img{
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.work-return {
+  max-width: 700px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 670px) {
+  .work-wrap .work-return .fa.fa-arrow-left {
+    position: relative;
+    top: -5px;
+    left: 20px;
+ }
+}
+
+.work-return .fa.fa-arrow-left {
+  font-weight: 200;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 36px;
+  
+}
+.work-return .fa.fa-arrow-left:hover {
+  opacity: 0.5;
+}
+*/
