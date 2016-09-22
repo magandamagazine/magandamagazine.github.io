@@ -2058,3 +2058,28 @@ img {
 .contact h1{
   padding-top: 25px;
 }
+
+.form {
+  max-width: 450px;
+  margin: 0 auto 50px;
+}
+.form input, textarea{
+  border: 3px solid #9BC1BC;
+  width: 100%;
+  box-sizing: border-box;
+}
+ 
+.form label{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form .contact-info-group label{
+  width: 48%;
+  margin-right: 2%;
+  float: left; 
+}
+
+footer{
+  background-color: red;
+}
