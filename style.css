@@ -911,10 +911,10 @@ section {
 h1 {
   color: #9BC1BC;
   font-weight: bolder; 
-  
+  font-size: large;
   text-align: center;
   /*margin-left: 75px;*/
-  font-family: 'Oswald', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 figure {
@@ -947,9 +947,10 @@ div#about.about{
   padding-bottom: 39px;
 }
 h1.abouthead {
-    background-color: white;
+    color: #ED6A5A;
     text-align: center;
     padding-top: 50px;
+    font-family: "Open Sans", sans-serif;
   }
 
     .text-box {
@@ -1008,7 +1009,7 @@ h1.abouthead {
     }
     .content .item .community .commhead {
       /*margin-right: 75px;*/
-      color: #F4F1BB;
+      color: #ED6A5A;
       text-align: center;
       padding-top: 50px;
       /*font-size: 82px;*/
@@ -1053,6 +1054,32 @@ h1.abouthead {
 
 .content .home2 .text-vcenter {
       background: url(pics/mag.jpg) no-repeat center center fixed; 
+      display: table;
+      height: 100%;
+      position: relative;
+      width: 100%;
+      padding: 100px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.content .home3 .text-vcenter {
+      background: url(pics/mic.png) no-repeat center center fixed; 
+      display: table;
+      height: 100%;
+      position: relative;
+      width: 100%;
+      padding: 100px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.content .home4 .text-vcenter {
+      background: url(pics/publish.jpg) no-repeat center center fixed; 
       display: table;
       height: 100%;
       position: relative;
@@ -1895,6 +1922,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container h4{
   color: black;
@@ -1913,6 +1942,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container2 h4{
   color: black;
@@ -1931,6 +1962,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container3 h4{
   color: black;
@@ -1948,6 +1981,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container4 h4{
   color: black;
@@ -1965,6 +2000,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container5 h4{
   color: black;
@@ -1982,6 +2019,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container6 h4{
   color: black;
@@ -1999,6 +2038,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container7 h4{
   color: black;
@@ -2016,6 +2057,8 @@ img {
   margin: 0 auto;
   position: relative;
   display: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .work-container8 h4{
   color: black;
@@ -2041,6 +2084,9 @@ img {
     top: -5px;
     left: 20px;
  }
+ .work-wrap .theme {
+  width: 100%;
+ }
 }
 
 .work-return .fa.fa-arrow-left {
@@ -2055,6 +2101,10 @@ img {
   opacity: 0.5;
 }
 
+section#contact.contact {
+  margin-right: 10px;
+  margin-left: 10px;
+}
 .contact h1{
   padding-top: 25px;
 }
@@ -2082,4 +2132,104 @@ img {
 
 footer{
   background-color: red;
+}
+
+.content article#events {
+  max-width: 800px;
+}
+
+#calendar {
+  width: 100%;
+}
+
+#calendar a{
+  color: #667;
+  text-decoration: none;
+}
+#calendar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+  width: 100%;
+}
+#calendar li{
+  display: block;
+  float: left;
+  width: 14.2057142057%;
+  padding: 5px;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+#calendar ul.weekdays{
+  height: 40px;
+  background:#333;
+  width: 98.7%;
+}
+#calendar ul.weekdays li{
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  border: none !important;
+  padding: 10px 6px;
+  color: #fff;
+  font-size: 13px;
+}
+#calendar .days li{
+  height: 115px;
+}
+#calendar .days li:hover {
+  background:#eee;
+}
+#calendar .date {
+  text-align: center;
+  margin-bottom: 5px;
+  
+  color: black;
+  width: 25px;
+  
+  float: right;
+}
+#calendar .event {
+  clear: both;
+  display: block;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #667;
+  line-height: 14px;
+  background-color: #e4f2f2;
+  border: 1px solid #b5bdbc;
+  color: #009aaf;
+  text-decoration: none;
+}
+#calendar .event-desc {
+  color: #667;
+  margin: auto 0 auto 0;
+  text-decoration: none;
+}
+#calendar .other-month {
+  background: rgba(0, 150, 136, 0.17);
+  color: #9e9e9e;
+}
+
+@media screen and (max-width: 768px) {
+  #calendar .weekdays, #calendar .other-month, #calendar .days .day .date,  #calendar .days .day{
+    display: none;
+  }
+  #calendar li {
+    height: auto !important;
+    border:1px solid #ededed;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: -1px;
+  }
+  #calendar .date{
+    float: none;
+    
+  }
 }
